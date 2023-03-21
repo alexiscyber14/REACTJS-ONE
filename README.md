@@ -33,7 +33,7 @@ Reactjs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Link to online version of My Portfolio**
+**Link to online version of  my Math magicians**
 <a href="#">coming soon</a>
 
 
