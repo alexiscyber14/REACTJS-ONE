@@ -152,7 +152,9 @@ button {
 .quoteCon {
   margin-top: 13%;
   width: 90%;
+
   @include flex-col();
+
   justify-content: space-around;
 }
 
