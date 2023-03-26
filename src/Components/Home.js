@@ -1,10 +1,17 @@
 import React from 'react';
-import '../App.css';
+import '../App.scss';
+
+const ParaStyles = {
+  borderRight: '10px solid rgb(9, 7, 39)',
+  color: 'black',
+  padding: '2%',
+  boxShadow: '2px 2px 8px rgb(226, 226, 226)',
+};
 
 const Home = () => (
   <div className="homeContent">
     <h2>Welcome to Math Magician labs</h2>
-    <p className="homeP">
+    <p className="homeP" style={ParaStyles}>
       One of the most exciting things about mathematics is that it is an open-ended field of-
       study with endless possibilities for exploration and discovery.
       New mathematical concepts and structures are being discovered all the time,
@@ -14,7 +21,7 @@ const Home = () => (
       and push the boundaries of what we know.
     </p>
 
-    <p className="homeP">
+    <p className="homeP" style={ParaStyles}>
       In addition to its practical applications, mathematics is also a beautiful and
       abstract field that offers-
       endless opportunities for exploration and discovery.

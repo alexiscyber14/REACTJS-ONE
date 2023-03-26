@@ -1,6 +1,8 @@
-import './App.css';
+import './App.scss';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router, Routes, Route,
+} from 'react-router-dom';
 import CalculatorComponent from './Components/calculator';
 import QuoteFetcher from './Components/quote';
 import Home from './Components/Home';
