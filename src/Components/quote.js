@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../App.css';
+import '../App.scss';
 
 function QuoteFetcher() {
   const [quote, setQuote] = useState('');
@@ -29,13 +29,11 @@ function QuoteFetcher() {
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       {!loading && !error && (
-        <div>
-          <p>
+        <div className="quoteCon">
+          <p className="quoteP">
             &ldquo;
             {quote}
             &ldquo;
-          </p>
-          <p>
             -
             {author}
           </p>
