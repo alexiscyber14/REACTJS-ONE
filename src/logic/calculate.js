@@ -1,9 +1,9 @@
-const operate = require('./operate');
+import operate from './operate';
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
-function calculate(obj, buttonName) {
+export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -107,5 +107,3 @@ function calculate(obj, buttonName) {
     operation: buttonName,
   };
 }
-
-module.exports = calculate;
