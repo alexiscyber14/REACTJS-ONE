@@ -33,7 +33,7 @@ Reactjs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Link to online version of My Portfolio**
+**Link to online version of  my Math magicians**
 <a href="#">coming soon</a>
 
 
@@ -73,7 +73,7 @@ Contributions, issues, and feature requests are welcome!
 - Perform math operations in the app
 - Discover math quotes in the app
 - 
-## FUTURE FEATURES
+
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project you can give it a ⭐️.
@@ -81,6 +81,7 @@ If you like this project you can give it a ⭐️.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+I would like to thank <a href="https://www.microverse.org/">MICROVERSE</a> for their contribution to the material used in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
